@@ -232,7 +232,7 @@ div>a {
     margin: 0 26px;
 }
 
-.card{
+.card {
     width: 342px;
     height: 400px;
 }
@@ -280,3 +280,65 @@ div>a {
 }
 
 /* Online Game Section Style End */
+
+
+.play-instantly-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    padding: 0px 250px;
+}
+
+.main-img-man {
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+    padding-top: 200px;
+}
+
+.main-img-doll {
+    width: 318.5px;
+    height: 365.083px;
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+}
+
+.instantly-heading>span {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instantly-heading {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: right;
+}
+
+.instantly-para {
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play-instantly-description{
+    margin-right: 140px;
+}

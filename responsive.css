@@ -122,6 +122,40 @@
         width: 100%;
         height: auto;
     }
+
+
+
+
+    .play-instantly-container{
+        flex-wrap: wrap;
+    }
+
+    .main-img-man {
+        width: 317.4165px;
+        height: 325px;
+        padding-top: 0px;
+    }
+
+    .main-img-doll {
+        width: 159.25px;
+        height: 182.5415px;
+        bottom: 150px;
+        right: 75px;
+    }
+
+    .main-img{
+        margin-bottom: 500px;
+        padding-bottom: 800px;
+    }
+
+    .play-instantly-description{
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .instantly-para, .instantly-heading {
+        text-align: center;
+    }
 }
 
 /* Responsive For Medium Devices */
