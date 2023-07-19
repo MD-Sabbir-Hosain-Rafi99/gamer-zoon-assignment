@@ -60,3 +60,42 @@
         padding: 5px 12px 6px 18px;
     }
 }
+
+/* Responsive For Medium Devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .menu-list-container>a,
+    div>a {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .menu-list-container {
+        margin-right: 60px;
+    }
+
+    .follow-us-background {
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        background: rgba(11, 2, 35, 0.10);
+    }
+
+    .logo-container {
+        margin-left: 60px;
+    }
+
+    .logo-container>img {
+        width: auto;
+        height: 20px;
+    }
+
+    .heading-logo-text {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .span-one {
+        font-size: 35px;
+    }
+}
