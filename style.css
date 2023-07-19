@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* Navbar Style */
+/* Navbar Style Start */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -77,3 +77,100 @@ div>a {
 .fa-brands {
     margin-right: 5px;
 }
+
+/* Navbar style End */
+
+/* Banner Section Style */
+
+.play-like-para {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.play-like-heading {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-container .play-like-the-container>a {
+    text-decoration: none;
+    display: block;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-pic {
+    max-width: 40%;
+    height: auto;
+    /* background: cover no-repeat; */
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+.play-like-the-container {
+    margin: 0 auto;
+    margin-left: 100px;
+}
+
+.list-banner {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-bottom: 18px;
+}
+
+.btn-pink {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn-blue {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Banner Section Style End */

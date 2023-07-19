@@ -1,6 +1,8 @@
 /* Responsive For Mobile Device */
 
 @media screen and (max-width: 576px) {
+
+    /* For Navbar Part */
     .nav-container {
         flex-direction: column;
         width: none;
@@ -59,11 +61,47 @@
     .follow-us-text {
         padding: 5px 12px 6px 18px;
     }
+
+    /* For Banner Part */
+
+    .main-container {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .play-like-the-container {
+        margin-top: 120px;
+        align-items: center;
+
+    }
+    .play-like-para, .play-like-heading {
+        font-size: 2em;
+    }
+
+    .list-banner{
+        font-size: 10px;
+    }
+    .fa-solid, .fa-regular, .fa-solid{
+        size: 2em;
+    }
+    .banner-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-pink, .btn-blue{
+        padding: 10px 15px;
+        font-weight: 300;
+        font-size: 5px;
+
+    }
 }
 
 /* Responsive For Medium Devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+
     .menu-list-container>a,
     div>a {
         font-size: 10px;
@@ -97,5 +135,11 @@
 
     .span-one {
         font-size: 35px;
+    }
+
+    /* Banner */
+
+    .main-container > .play-like-the-container{
+        margin-top: 160px;
     }
 }
