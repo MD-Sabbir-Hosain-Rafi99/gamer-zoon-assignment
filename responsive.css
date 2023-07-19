@@ -75,32 +75,58 @@
         align-items: center;
 
     }
-    .play-like-para, .play-like-heading {
+
+    .play-like-para,
+    .play-like-heading {
         font-size: 2em;
     }
 
-    .list-banner{
+    .list-banner {
         font-size: 10px;
     }
-    .fa-solid, .fa-regular, .fa-solid{
+
+    .fa-solid,
+    .fa-regular,
+    .fa-solid {
         size: 2em;
     }
+
     .banner-pic {
         width: 100%;
         height: auto;
     }
 
-    .btn-pink, .btn-blue{
+    .btn-pink,
+    .btn-blue {
         padding: 10px 15px;
         font-weight: 300;
         font-size: 5px;
 
     }
+
+    .online-game-card-container {
+        flex-direction: column;
+    }
+
+    /* Online game responsive */
+    .online-game-card-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        margin: 26px;
+    }
+
+    .card-pic {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Responsive For Medium Devices */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 579px) and (max-width: 992px) {
 
     .menu-list-container>a,
     div>a {
@@ -137,9 +163,18 @@
         font-size: 35px;
     }
 
-    /* Banner */
-
-    .main-container > .play-like-the-container{
-        margin-top: 160px;
-    }
+    /* Online Game */
+    .online-game-card-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      
+      .card  {
+        margin: 26px;
+        flex: 2; 
+      }
+      
+      .card-pic {
+        width: 100%;
+      }
 }
