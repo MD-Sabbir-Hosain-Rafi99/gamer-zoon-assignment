@@ -339,6 +339,59 @@ div>a {
     line-height: 30px;
 }
 
-.play-instantly-description{
+.play-instantly-description {
     margin-right: 140px;
+}
+
+
+
+
+.r {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.list-one {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 233px;
+    height: 70px;
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+.list-one:hover{
+    border: 1px solid #FF42A5;
+    color: #F948B2;
+    cursor: pointer;
+}
+
+.mini-card-container {
+    width: 100%;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.list-container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-container-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-container-one{
+    padding-top: 150px;
+    padding-bottom: 38px;
 }

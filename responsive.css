@@ -156,6 +156,16 @@
     .instantly-para, .instantly-heading {
         text-align: center;
     }
+
+    .list-container-one, .list-container-two{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .mini-card-container{
+        background: none;
+      }
 }
 
 /* Responsive For Medium Devices */
