@@ -349,7 +349,6 @@ div>a {
 .r {
     width: 60px;
     height: 60px;
-    flex-shrink: 0;
     border-radius: 50px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -420,9 +419,38 @@ div>a {
     color: #FFF;
 }
 
-.logo-container-footer{
+.logo-container-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+}
+
+.footer-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+}
+
+.footer-para>p {
+    color: #FFF;
+    font-family: Work Sans;
+    margin-right: 60px;
+}
+
+.icon-footer {
+    margin-left: 650px;
+    margin-top: 40px;
+}
+
+.icon-footer > i {
+    margin-right: 50px;
+    font-size: 50px;
+}
+
+.end-footer{
+    margin-top: 40px;
+    margin-left: 720px;
+    color: #FFF;
 }

@@ -126,8 +126,9 @@
 
 
 
-    .play-instantly-container{
-        flex-wrap: wrap;
+    .play-instantly-container {
+        flex-direction: row;
+        padding: 0px;
     }
 
     .main-img-man {
@@ -143,29 +144,36 @@
         right: 75px;
     }
 
-    .main-img{
+    .main-img {
         margin-bottom: 500px;
         padding-bottom: 800px;
     }
 
-    .play-instantly-description{
+    .play-instantly-description {
         margin-right: auto;
         margin-top: 40px;
     }
 
-    .instantly-para, .instantly-heading {
+    .instantly-para,
+    .instantly-heading {
         text-align: center;
     }
 
-    .list-container-one, .list-container-two{
-        flex-direction: column;
+    .list-container-one,
+    .list-container-two {
+        flex-wrap: wrap;
         align-items: center;
-        gap: 10px;
-      }
+        gap: 8px;
+    }
 
-      .mini-card-container{
+    .mini-card-container {
         background: none;
-      }
+    }
+
+    .r {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 /* Responsive For Medium Devices */
@@ -211,14 +219,14 @@
     .online-game-card-container {
         flex-wrap: wrap;
         justify-content: space-around;
-      }
-      
-      .card  {
+    }
+
+    .card {
         margin: 26px;
-        flex: 2; 
-      }
-      
-      .card-pic {
+        flex: 2;
+    }
+
+    .card-pic {
         width: 100%;
-      }
+    }
 }
