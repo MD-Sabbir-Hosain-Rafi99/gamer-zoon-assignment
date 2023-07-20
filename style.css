@@ -365,7 +365,7 @@ div>a {
     background: #ffffff;
 }
 
-.list-one:hover{
+.list-one:hover {
     border: 1px solid #FF42A5;
     color: #F948B2;
     cursor: pointer;
@@ -384,14 +384,45 @@ div>a {
     justify-content: space-around;
 }
 
-.list-container-two{
+.list-container-two {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.list-container-one{
+.list-container-one {
     padding-top: 150px;
     padding-bottom: 38px;
+}
+
+
+/* Footer */
+
+.footer-container {
+    width: 100%;
+    height: 636px;
+    background: #0B0223;
+}
+
+.nav-logo-pic-footer {
+    width: 86.041px;
+    height: 40px;
+}
+
+.heading-logo-text-footer {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+.logo-container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
 }
